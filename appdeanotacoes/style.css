@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+body{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: #7c5713;
+}
+
+#container{
+  background-color: #ce952c;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+}
+
+h1{
+  font-family: "Crimson Pro", serif;
+  font-size: 50px;
+  margin-bottom: 0px;
+  color: white;
+}
+
+input{
+  font-family: "Crimson Pro", serif;
+  font-size: 20px;
+  width: 500px;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+}
+
+ul{
+  list-style-type: none;
+  padding: 0px;
+}
+
+li{
+  font-family: "Crimson Pro", serif;
+  font-size: 20px;
+  background-color: white;
+  width: 100%;
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#delete{
+  border: none;
+  background-color: white;
+}
+
+#botao{
+  font-family: "Crimson Pro", serif;
+  font-size: 20px;
+  border-radius: 5px;
+  border: none;
+}
